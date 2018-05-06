@@ -1,0 +1,18 @@
+page-landing {
+    ion-content{
+        background-image: url('/assets/imgs/colme.jpg');
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    } 
+
+    #buttons{
+        margin-top: 360px;
+    } 
+    #button{
+        height: 180px;
+        font-size: 20px;
+        font-size: 8vm;
+    }
+}

@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar transparent>
+    <ion-title><h1>Colmecar</h1></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+        <ion-row >
+          <ion-col col-4> <button id="button" ion-button block  (click)="SearchResults('Pozuelo')">Pozuelo</button>
+            <button id="button" ion-button block (click)="SearchResults('Torrelodones')" > Torrelodones</button>
+            <button id="button" ion-button block  (click)="SearchResults('Villanueva de la Cañada')">Villanueva de la Cañada</button>
+          </ion-col>
+          <ion-col col-4><button id="button" ion-button block (click)="SearchResults('Majadahonda')" >Majadahonda</button>
+            <button id="button" ion-button block (click)="SearchResults('Madrid')">Madrid</button>
+            <button id="button" ion-button block (click)="SearchResults('Aravaca')">Aravaca</button>
+          </ion-col>
+          <ion-col col-4><button id="button" ion-button block (click)="SearchResults('Las Rozas')">Las Rozas</button>
+            <button id="button" ion-button block (click)="SearchResults('El Escorial')">El Escorial</button>
+            <button id="button" ion-button block (click)="SearchResults('Boadilla del Monte')" >Boadilla del Monte</button>
+          </ion-col>
+        </ion-row>
+            </ion-grid>
+</ion-content>
+
